@@ -10,25 +10,21 @@ This tool executes the following network commands:
 - **Network Interface Status** - Interface connection status
 - **Routing Table** - `route print` - Network routing information
 - **ARP Table** - `arp -a` - Address Resolution Protocol cache
-- **DNS Cache** - `ipconfig /displaydns` - DNS resolver cache
 - **DNS Test** - `nslookup google.com` - DNS resolution test
-- **Ping Tests**:
-  - Loopback (127.0.0.1) - Local network stack test
-  - Google DNS (8.8.8.8) - Internet connectivity test
-  - Google.com - DNS + Internet test
-- **Traceroute** - `tracert google.com` - Route tracing
 - **Network Statistics** - `netstat -an` - Active connections
 - **Network Adapter Details** - Hardware and speed info
 - **Wireless Info** - `netsh wlan show interfaces` - WiFi details
 - **Windows Firewall Status** - Security profile status
 - **Proxy Settings** - System proxy configuration
+- **Ping Tests**:
+  - Loopback (127.0.0.1) - Local network stack test
+  - Google DNS (8.8.8.8) - Internet connectivity test
+  - Google.com - DNS + Internet test
+
 
 ## Usage
 
-### Option 1: Run the batch file (Recommended)
-Double-click `run_network_diag.bat`
-
-### Option 2: Run the executable directly
+### Run the executable directly
 ```
 network_tool.exe
 ```
