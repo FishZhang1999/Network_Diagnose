@@ -124,11 +124,6 @@ int main(int argc, char *argv[]) {
 
     // Traceroute
     //run_command(fp, "Traceroute to Google.com", "tracert -d -h 15 google.com");
-
-    // Access.epam.com Tests
-    run_command(fp, "DNS Lookup Test (access.epam.com)", "nslookup access.epam.com");
-    run_command(fp, "Ping Test - access.epam.com", "ping access.epam.com -n 4");
-    //run_command(fp, "Traceroute to access.epam.com", "tracert -d -h 15 access.epam.com");
     
     fprintf(fp, "\n\n========================================\n");
     fprintf(fp, "    END OF NETWORK DIAGNOSTIC REPORT\n");
